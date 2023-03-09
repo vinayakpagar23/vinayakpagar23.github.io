@@ -25,7 +25,7 @@ const Contact = () => {
 		  Mobile: +91-<span style={{ color: `#00a0a0`, fontSize:`20px`, textDecoration: `underline` }} >9689886567</span>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
           </p>
 		  <p style={{ color: `#00a0a0`,fontSize:`20px` }}>
-            Location: Nashik, Maharastra, India{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
+            Location: Nashik, Maharashtra, India{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
           </p>
 		  
         <div
@@ -70,7 +70,7 @@ const Contact = () => {
       </div>
       <div style={{ background: `${newTheme.line}` }} className={styles.line} />
       <div style={{ color: `${newTheme.para}` }} className={styles.copyright}>
-        Designed and build by Vinayak, 2022 All rights reserved.
+        Designed and build by Vinayak, 2023 All rights reserved.
       </div>
     </footer>
   );

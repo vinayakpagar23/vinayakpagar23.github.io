@@ -12,6 +12,7 @@ import { projects } from "../../Utils/Projects";
 import Contact from "../Contact/Contact";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
 import GitHub from "../Calender/calender";
+import Experience from "../experience/Experience";
 // import Experiences from '../Experiences/Experiences';
 
 
@@ -77,7 +78,7 @@ const Home = ({ scrollRef }) => {
           <h1>Full Stack Web Developer.</h1>
           <div className={styles.btn}>
             <a
-              href="https://drive.google.com/file/d/1-GdqOvBQGTHrFuKPj3WJBUxluXuwacJo/view?usp=share_link"
+              href="https://drive.google.com/file/d/1dWwU8fm-hg3mvY6yV6iwv3jzsMCHo30-/view?usp=share_link"
 
 
               target="_blank"
@@ -119,6 +120,15 @@ const Home = ({ scrollRef }) => {
         className={styles.experience}
       >
         <About />
+      </div>
+      <div
+        id="about"
+        style={{
+          background: `${newTheme.highlightBackground}`,
+        }}
+        className={styles.experience}
+      >
+        <Experience />
       </div>
 
       <div id="techStacks" className={styles.techStacks}>
