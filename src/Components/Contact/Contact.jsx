@@ -13,7 +13,7 @@ const Contact = () => {
         <h1 style={{ color: `${newTheme.title}` }}>Get in Touch</h1>
         <p style={{ color: `${newTheme.para}` }} className={styles.paragraph}>
           I'm actively looking for any new opportunities, in full-stack web
-          development.
+          development .
         </p>
     
           <p style={{ color: `#00a0a0`, lineHeight: ``,fontSize:`20px` }}>
