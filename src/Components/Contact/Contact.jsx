@@ -32,6 +32,8 @@ const Contact = () => {
           style={{ color: `${newTheme.title}` }}
           className={styles.contactOptions}
         >
+
+          
           <a
             href="tel:9689886567"
             aria-label="GitHub"

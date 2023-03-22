@@ -13,6 +13,8 @@ export const projects = [
       "React","Redux","Material-UI","Chakra-UI"
       
     ],
+
+    
   },
   {
     img: "https://camo.githubusercontent.com/291a70054a63bd9ed5e6ef9cbe506dee2483734bdb84f5e4781ece115727134a/687474703a2f2f70686f746f732e70726e657773776972652e636f6d2f70726e66756c6c2f32303135303230312f313732373131",

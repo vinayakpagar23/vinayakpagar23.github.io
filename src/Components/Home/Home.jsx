@@ -112,6 +112,8 @@ const Home = ({ scrollRef }) => {
         </div>
       </div>
 
+
+
       <div
         id="about"
         style={{
