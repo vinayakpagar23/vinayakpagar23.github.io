@@ -24,7 +24,7 @@ const TechStacks = () => {
 			>
 				Frontened
 			</h2> */}
-			<div className={styles.container}>
+			<div className={styles.container} id="skills">
 				<div
 					style={{
 						color: `${newTheme.title}`,

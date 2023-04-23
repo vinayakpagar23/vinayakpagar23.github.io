@@ -52,6 +52,7 @@ const Navbar = () => {
 				background: `${newTheme.background}`,
 				boxShadow: `3px 3px 10px ${newTheme.line}`,
 			}}
+			id='nav-menu'
 		>
 			<div className={styles.navbar}>
 			

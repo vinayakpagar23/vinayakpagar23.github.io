@@ -1,5 +1,36 @@
 export const projects = [
   {
+    img: "https://www.91-cdn.com/hub/wp-content/uploads/2022/06/Best-chatting-apps.png",
+    title: "ChatApp Mern",
+    des: "chat application that enables real-time messaging. With this chat application, users have the ability to engage in one-to-one conversations or participate in group chats. This means that messages can be sent and received instantly, making it convenient for users to communicate with one another.",
+    demo: "",
+    live: "https://chatapp-mern1.netlify.app/",
+    gitHub: "https://github.com/vinayakpagar23/ChatApp-Mern",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React","ContextAPI","Chakra-UI","Node js","MongoDb","Express js","Mongoose","socket.io"
+      
+    ], 
+  },
+
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB2VBe3SqLfBphw0ocRQzhJD-uQ-eztYwjxA&usqp=CAU",
+    title: "Social Media App",
+    des: "added authentication, so users can now log in and sign up. Additionally, users can view posts from other users, like them, and add their own posts to the platform. The app also offers the ability to switch between light and dark themes for a personalized experience.",
+    demo: "",
+    live: " https://quiet-caramel-f3aa42.netlify.app/",
+    gitHub: "https://github.com/vinayakpagar23/socialMedia-mern",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React","Redux","Material UI","Node js","MongoDb","Express js","Mongoose"
+      
+    ], 
+  },
+  {
     img: "https://i0.wp.com/nenow.in/wp-content/uploads/2020/02/Flipkart.jpg?fit=1030%2C687&ssl=1",
     title: "Flipkart.com Clone",
     des: "E-Commerce website where we can buy any type of products",
@@ -32,7 +63,7 @@ export const projects = [
     ],
   },
   {
-    img: "https://entrackr-bucket.s3.ap-south-1.amazonaws.com/wp-content/uploads/2020/08/06133240/netmeds-1-800x400.jpg",
+    img: "https://entrackr.com/storage/2020/08/netmeds-1-800x400.jpg",
     title: "Netmed.com Clone",
     des: "Cretaed clone of netmeds.com. The main purpose of this website is deliver medicine as lowest price and quick. This was a collaborative project buit by team of 5 members in 5 days.",
     

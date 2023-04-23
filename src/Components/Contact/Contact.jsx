@@ -39,6 +39,7 @@ const Contact = () => {
             aria-label="GitHub"
             rel="noreferrer"
             target="_blank"
+            id="contact-phone"
           >
             <i className="fas fa-phone-alt" />
           </a>
@@ -47,6 +48,7 @@ const Contact = () => {
             aria-label="email"
             target="_blank"
             rel="noreferrer"
+            id="contact-email"
           >
             <i className="far fa-envelope"></i>
           </a>
@@ -56,6 +58,7 @@ const Contact = () => {
             aria-label="GitHub"
             rel="noreferrer"
             target="_blank"
+            id="contact-github"
           >
             <i className="fab fa-github" />
           </a>
@@ -65,6 +68,7 @@ const Contact = () => {
             aria-label="Linkedin"
             target="_blank"
             rel="noreferrer"
+            id="contact-linkedin"
           >
             <i className="fab fa-linkedin-in" />
           </a>

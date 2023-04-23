@@ -71,11 +71,11 @@ const Home = ({ scrollRef }) => {
         >
           <h1>
             <span>Hey👋, I'm </span>
-            <div className={styles.name} style={{ color: `${newTheme.title}` }}>
+            <div className={styles.name} style={{ color: `${newTheme.title}` }} id="user-detail-name">
               Vinayak.
             </div>
           </h1>
-          <h1>Full Stack Web Developer.</h1>
+          <h1 id="user-detail-intro">Full Stack Web Developer.</h1>
           <div className={styles.btn}>
             <a
               href="https://drive.google.com/file/d/1dWwU8fm-hg3mvY6yV6iwv3jzsMCHo30-/view?usp=share_link"
@@ -108,6 +108,7 @@ const Home = ({ scrollRef }) => {
           <img
             src={img1}
             alt="Profile pic"
+            className= "home-img"
           />
         </div>
       </div>
