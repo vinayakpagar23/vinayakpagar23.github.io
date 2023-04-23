@@ -77,7 +77,8 @@ const Navbar = () => {
 					<a className='projects' href='#projects'>Projects</a>
 
 					<a className='contact' href='#contact'>Contact</a>
-					<a href='https://drive.google.com/file/d/10iA2ZwvOn7alVMAorw4wlJZvJBMSxm7g/view?usp=share_link' id="resume-button-1">Resume</a>
+					<a download href='https://drive.google.com/file/d/10iA2ZwvOn7alVMAorw4wlJZvJBMSxm7g/view?usp=share_link' id="resume-button-1" target="_blank"
+              rel="noreferrer">Resume</a>
 					</span>
 				</div>
 				<button
