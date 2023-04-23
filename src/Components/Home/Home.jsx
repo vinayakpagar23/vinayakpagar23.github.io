@@ -78,9 +78,9 @@ const Home = ({ scrollRef }) => {
           <h1 id="user-detail-intro">Full Stack Web Developer.</h1>
           <div className={styles.btn}>
             <a
-              href="https://drive.google.com/file/d/1dWwU8fm-hg3mvY6yV6iwv3jzsMCHo30-/view?usp=share_link"
+              href="https://drive.google.com/file/d/10iA2ZwvOn7alVMAorw4wlJZvJBMSxm7g/view?usp=share_link"
 
-
+              id="resume-button-2"
               target="_blank"
               rel="noreferrer"
             >

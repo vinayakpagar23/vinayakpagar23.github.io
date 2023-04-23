@@ -30,10 +30,13 @@ const Experience = () => {
         <h3 style={{ color: `${newTheme.title}` }} className={styles.aboutMe} >Position : System Engineer (Sept-2021 To Nov-2022)</h3>
         <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe}>
          <li>
-           Develop and Manage project as per client Requirement.
+           Developed and Manage project as per client Requirement.
          </li>
          <li>
-           Handle Incidents that related to the python technology.
+           Handled Incidents that related to the python technology.
+         </li>
+         <li>
+           Worked on HTML, CSS, Bootstrap,Raect js, Javascript
          </li>
          <li>
            Worked on jupyterhub, Docker, Django, Flask,Aws SageMaker, Azure Machine Learning tools.

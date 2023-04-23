@@ -70,13 +70,15 @@ const Navbar = () => {
 					style={{ color: `${newTheme.title}` }}
 					className={styles.links}
 				>
-					<a  href='#home'>Home</a>
-					<a  href='#about'>About</a>
-					<a href='#techStacks'>Proficiencies</a>
-					<a href='#projects'>Projects</a>
+					<span className='.nav-link'>
+					<a className='home' href='#home'>Home</a>
+					<a className='about' href='#about'>About</a>
+					<a className='skills' href='#techStacks'>Proficiencies</a>
+					<a className='projects' href='#projects'>Projects</a>
 
-					<a href='#contact'>Contact</a>
-					<a href='https://drive.google.com/file/d/1dWwU8fm-hg3mvY6yV6iwv3jzsMCHo30-/view?usp=share_link' id="resume-button-1">Resume</a>
+					<a className='contact' href='#contact'>Contact</a>
+					<a href='https://drive.google.com/file/d/10iA2ZwvOn7alVMAorw4wlJZvJBMSxm7g/view?usp=share_link' id="resume-button-1">Resume</a>
+					</span>
 				</div>
 				<button
 					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}
@@ -123,6 +125,7 @@ const Navbar = () => {
 				</div>
 			</div>
 		</nav>
+		
 	);
 };
 
