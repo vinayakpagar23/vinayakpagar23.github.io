@@ -16,12 +16,12 @@ const Contact = () => {
           development .
         </p>
     
-          <p style={{ color: `#00a0a0`, lineHeight: ``,fontSize:`20px` }}>
+          <p style={{ color: `#00a0a0`, lineHeight: ``,fontSize:`20px` }}   id="contact-email">
             {/* {" "} */}
             Email: vinayakpagar1999@gmail.com
           </p>
 
-		  <p style={{ color: `#00a0a0`,fontSize:`20px`}}>
+		  <p style={{ color: `#00a0a0`,fontSize:`20px`}}  id="contact-phone">
 		  Mobile: +91-<span style={{ color: `#00a0a0`, fontSize:`20px`, textDecoration: `underline` }} >9689886567</span>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
           </p>
 		  <p style={{ color: `#00a0a0`,fontSize:`20px` }}>
@@ -39,7 +39,7 @@ const Contact = () => {
             aria-label="GitHub"
             rel="noreferrer"
             target="_blank"
-            id="contact-phone"
+           
           >
             <i className="fas fa-phone-alt" />
           </a>
@@ -48,7 +48,7 @@ const Contact = () => {
             aria-label="email"
             target="_blank"
             rel="noreferrer"
-            id="contact-email"
+          
           >
             <i className="far fa-envelope"></i>
           </a>

@@ -31,7 +31,7 @@ const Card = (props) => {
 			}}
 		>
 			<div className={styles.image}>
-				<img src={img} alt='project' />
+				<img className='project-card' src={img} alt='project' />
 				<div className={styles.colorDiv} />
 			</div>
 

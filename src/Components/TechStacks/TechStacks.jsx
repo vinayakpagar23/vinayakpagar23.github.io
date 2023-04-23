@@ -10,6 +10,7 @@ const TechStacks = () => {
 			data-aos-offset='200'
 			data-aos-easing='ease-in-sine'
 			data-aos-duration='800'
+			className='skills-card'
 		>
 			<h1
 				style={{ color: `${newTheme.title}` }}
