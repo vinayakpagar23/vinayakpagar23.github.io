@@ -20,11 +20,12 @@ const About = () => {
         />
       </div>
       <div className={styles.second}>
+        <span id="about"><span className=".about"><span className="section"></span></span></span>
         <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
           About Me
         </h1>
         <div className={styles.borderBottom} />
-        <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe}>
+        <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe} id="user-detail-intro">
           Hello! My name is Vinayak and I like to build websites/application that
           serves the world and always want to enhance my knowledge & adpot new
           technologies that make impact on people. My interest in web
