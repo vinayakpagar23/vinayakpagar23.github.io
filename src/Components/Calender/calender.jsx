@@ -30,7 +30,12 @@ const GitHub = () => {
           year={new Date().getFullYear()}
         />
       </div>
-
+      
+      <div style={{display:"flex",justifyContent:"space-between",flexWrap:"wrap"}}>
+  <img id="github-stats-card" src="https://github-readme-streak-stats.herokuapp.com/?user=vinayakpagar23&theme=react" alt="Manoj Gajare" height="250px" width="47%" />
+  <img id="github-streak-stats" src="https://github-readme-stats.vercel.app/api?username=vinayakpagar23&show_icons=true&theme=react" height="255px" width="47%"/>
+  <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinayakpagar23&theme=react&langs_count=8" alt="Manoj Gajare" height="260px" width="100%" />
+</div>
     </div>
   );
 };

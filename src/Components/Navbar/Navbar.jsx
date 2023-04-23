@@ -76,6 +76,7 @@ const Navbar = () => {
 					<a href='#projects'>Projects</a>
 
 					<a href='#contact'>Contact</a>
+					<a href='https://drive.google.com/file/d/1dWwU8fm-hg3mvY6yV6iwv3jzsMCHo30-/view?usp=share_link' id="resume-button-1">Resume</a>
 				</div>
 				<button
 					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}
