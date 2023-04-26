@@ -52,6 +52,18 @@ const Home = ({ scrollRef }) => {
     }
   };
 
+  const handleResume = () => {
+    fetch("Vinayak_Pagar_Resume_.pdf").then((res) => {
+      res.blob().then((blob) => {
+        const fileUrl = window.URL.createObjectURL(blob);
+        let file = document.createElement("a");
+        file.href = fileUrl;
+        file.download = "Vinayak_Pagar_Resume_.pdf";
+        file.click();
+      });
+    });
+  };
+
   return (
     <div ref={scrollRef} className={styles.suraj}>
       <SideIcons />
@@ -78,11 +90,12 @@ const Home = ({ scrollRef }) => {
           <h1 id="user-detail-intro">Full Stack Web Developer.</h1>
           <div className={styles.btn}>
             <a
-              href="https://drive.google.com/file/d/10iA2ZwvOn7alVMAorw4wlJZvJBMSxm7g/view?usp=share_link"
-
+              href="https://drive.google.com/file/d/1PVQQOvWeb1lxZf041h-Qa-KoBnYlZN7A/view"
+              onClick={handleResume}
               id="resume-button-2"
               target="_blank"
               rel="noreferrer"
+              download
             >
               {/* resume link have to update above */}
               <Button

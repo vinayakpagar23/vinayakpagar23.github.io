@@ -43,6 +43,17 @@ const Navbar = () => {
 	// 	}
 	// 	setPreScrollPos(currentScrollPos);
 	// };
+	const handleResume = () => {
+		fetch("Vinayak_Pagar_Resume_.pdf").then((res) => {
+		  res.blob().then((blob) => {
+			const fileUrl = window.URL.createObjectURL(blob);
+			let file = document.createElement("a");
+			file.href = fileUrl;
+			file.download = "Vinayak_Pagar_Resume_.pdf";
+			file.click();
+		  });
+		});
+	  };
 
 	return (
 		<nav
@@ -70,15 +81,15 @@ const Navbar = () => {
 					style={{ color: `${newTheme.title}` }}
 					className={styles.links}
 				>
-					<span className='.nav-link'>
+					<span className='nav-link'>
 					<a className='home' href='#home'>Home</a>
 					<a className='about' href='#about'>About</a>
 					<a className='skills' href='#techStacks'>Proficiencies</a>
 					<a className='projects' href='#projects'>Projects</a>
 
 					<a className='contact' href='#contact'>Contact</a>
-					<a download href='https://drive.google.com/file/d/10iA2ZwvOn7alVMAorw4wlJZvJBMSxm7g/view?usp=share_link' id="resume-button-1" target="_blank"
-              rel="noreferrer">Resume</a>
+					<a download href='https://drive.google.com/file/d/1PVQQOvWeb1lxZf041h-Qa-KoBnYlZN7A/view' id="resume-button-1" target="_blank"
+              rel="noreferrer" onClick={handleResume}>Resume</a>
 					</span>
 				</div>
 				<button
