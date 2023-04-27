@@ -81,16 +81,16 @@ const Navbar = () => {
 					style={{ color: `${newTheme.title}` }}
 					className={styles.links}
 				>
-					<span className='nav-link'>
-					<a className='home' href='#home'>Home</a>
-					<a className='about' href='#about'>About</a>
-					<a className='skills' href='#techStacks'>Proficiencies</a>
-					<a className='projects' href='#projects'>Projects</a>
+					
+					<a className='nav-link home' href='#home'>Home</a>
+					<a className='nav-link about' href='#about'>About</a>
+					<a className='nav-link skills' href='#techStacks'>Proficiencies</a>
+					<a className='nav-link projects' href='#projects'>Projects</a>
 
-					<a className='contact' href='#contact'>Contact</a>
-					<a download href='https://drive.google.com/file/d/1PVQQOvWeb1lxZf041h-Qa-KoBnYlZN7A/view' id="resume-button-1" target="_blank"
+					<a className='nav-link contact' href='#contact'>Contact</a>
+					<a className='nav-link resume' download href='https://drive.google.com/file/d/1PVQQOvWeb1lxZf041h-Qa-KoBnYlZN7A/view' id="resume-button-1" target="_blank"
               rel="noreferrer" onClick={handleResume}>Resume</a>
-					</span>
+					
 				</div>
 				<button
 					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}

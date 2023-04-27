@@ -156,7 +156,7 @@ const Home = ({ scrollRef }) => {
       </div>
 
       {/* project section from here => */}
-      <div id="projects" className={styles.projects}>
+      <div id="projects" className={styles.projects} >
         <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
           Few Things I've Build
         </h1>

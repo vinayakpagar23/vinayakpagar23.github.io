@@ -10,7 +10,7 @@ const TechStacks = () => {
 			data-aos-offset='200'
 			data-aos-easing='ease-in-sine'
 			data-aos-duration='800'
-			className='skills-card'
+			style={{marginTop:50}}
 		>
 			<h1
 				style={{ color: `${newTheme.title}` }}
@@ -25,6 +25,7 @@ const TechStacks = () => {
 			>
 				Frontened
 			</h2> */}
+			
 			<div className={styles.container} id="skills">
 				<div
 					style={{
@@ -33,8 +34,11 @@ const TechStacks = () => {
 					}}
 					className={styles.logoWrapper}
 				>
+				
+					<img style={{display:"none"}} className='skills-card-img'></img>
 					<i className='devicon-html5-plain colored' />
-					<span>HTML</span>
+					<span className='skills-card-name'>HTML</span>
+					{/* </div> */}
 				</div>
 				<div
 					style={{

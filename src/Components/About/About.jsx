@@ -22,7 +22,7 @@ const About = () => {
       <div className={styles.second}>
         
         <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
-        <span id="about"><span className=".about"><span className="section"></span></span></span>
+        <span id="about" className="about section"></span>
           About Me
         </h1>
         <div className={styles.borderBottom} />
