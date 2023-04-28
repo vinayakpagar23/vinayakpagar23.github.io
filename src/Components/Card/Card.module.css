@@ -1,6 +1,4 @@
-.project-card{
-	
-}
+
 .card {
 	width: 70%;
 	margin: 50px auto;
@@ -14,6 +12,8 @@
 	opacity: 0.8;
 
 }
+
+
 
 .card__Container {
 	width: 90%;
