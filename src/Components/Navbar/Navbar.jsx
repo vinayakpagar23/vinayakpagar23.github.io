@@ -88,7 +88,7 @@ const Navbar = () => {
 					<a className='nav-link projects' href='#projects'>Projects</a>
 
 					<a className='nav-link contact' href='#contact'>Contact</a>
-					<a className='nav-link resume' download href='https://drive.google.com/file/d/1PVQQOvWeb1lxZf041h-Qa-KoBnYlZN7A/view' id="resume-button-1" target="_blank"
+					<a className='nav-link resume' download href='https://drive.google.com/file/d/1_ss25ojiYkEHimq7sfoC_3wlwTnvDie1/view?usp=sharing' id="resume-button-1" target="_blank"
               rel="noreferrer" onClick={handleResume}>Resume</a>
 					
 				</div>
